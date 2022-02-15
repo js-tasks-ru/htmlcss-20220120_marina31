@@ -1,0 +1,36 @@
+.skeleton{
+    border:1px solid var(--grey-3);
+    border-radius:8px;
+    padding:24px;
+    box-sizing: border-box;
+}
+.skeleton__header{
+    display: flex;
+}
+.skeleton__avatar{
+    border-radius: 50px;
+    width:64px;
+    height:64px;
+    background-color: var(--grey-2);
+}
+.skeleton__section{
+    flex-grow: 1;
+    padding-left:16px
+
+}
+.skeleton__footer{
+
+}
+.skeleton__line{
+    background:var(--grey-2);
+    height:20px;
+    margin-top:8px;
+}
+.skeleton__line_width50{
+    max-width:50%;
+    margin-top:8px;
+}
+.skeleton__line_width30{
+    max-width:30%;
+    margin-top:8px;
+}
